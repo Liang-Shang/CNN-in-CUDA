@@ -31,3 +31,5 @@ Main function to implement this network
 nvcc main.cu convolution.cu -Xcompiler -O3 -Xcompiler -Wall -Xptxas -O3 -o task
 
 ./task $batch $epoch $learning_rate
+
+Worked for CUDA V10.1
