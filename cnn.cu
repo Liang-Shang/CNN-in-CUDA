@@ -488,9 +488,9 @@ float *read_label(int n, int length, char* name) {
 int main(int argc, char *argv[]) {
 
     int n = 10000;
-	int batch = 100;
-	int epoch = 20;
-	float rate = 0.01;
+	int batch = atoi(*argv[1]);
+	int epoch = atoi(*argv[2]);
+	float rate = atoi(*argv[3]);
 
 	int image_length = 28;
 	int label_length = 10;
