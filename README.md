@@ -4,17 +4,17 @@ A CUDA version of convolutional neural network LeNet-5
 
 ## Files
 
-###network.h
+### network.h
 
 1.Structures needed for CNN implementation
 
 2.Host functions definced to be used to implement this project
 
-###convolution.cu
+### convolution.cu
 
 A small copy of convolution implementation in CUDA
 
-###network.cu
+### network.cu
 
 1.Kernel functions about detailed implementations of network
 
@@ -22,7 +22,7 @@ A small copy of convolution implementation in CUDA
 
 3.Host functions which can be controlled outside to implement this network
 
-###cnn.cu
+### cnn.cu
 
 Main function to implement this network
 
